@@ -11,6 +11,8 @@
 		CE0E4CA52BD9796E00310E8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E4CA42BD9796E00310E8D /* ContentView.swift */; };
 		CE0E4CA72BD9796F00310E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0E4CA62BD9796F00310E8D /* Assets.xcassets */; };
 		CE0E4CAA2BD9796F00310E8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0E4CA92BD9796F00310E8D /* Preview Assets.xcassets */; };
+		CE0E4CB12BD97E6300310E8D /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E4CB02BD97E6300310E8D /* StartPage.swift */; };
+		CE0E4CD42BD995F600310E8D /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E4CD32BD995F600310E8D /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CE0E4CA42BD9796E00310E8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE0E4CA62BD9796F00310E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0E4CA92BD9796F00310E8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE0E4CB02BD97E6300310E8D /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		CE0E4CD32BD995F600310E8D /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		CE0E4CA12BD9796E00310E8D /* Buzzic */ = {
 			isa = PBXGroup;
 			children = (
+				CE0E4CD52BD996C500310E8D /* Views */,
+				CE0E4CD22BD995AB00310E8D /* TabBar */,
 				CE0E4CA22BD9796E00310E8D /* BuzzicApp.swift */,
 				CE0E4CA42BD9796E00310E8D /* ContentView.swift */,
 				CE0E4CA62BD9796F00310E8D /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				CE0E4CA92BD9796F00310E8D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE0E4CD22BD995AB00310E8D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE0E4CD32BD995F600310E8D /* CustomTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CE0E4CD52BD996C500310E8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE0E4CB02BD97E6300310E8D /* StartPage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0E4CD42BD995F600310E8D /* CustomTabBar.swift in Sources */,
 				CE0E4CA52BD9796E00310E8D /* ContentView.swift in Sources */,
+				CE0E4CB12BD97E6300310E8D /* StartPage.swift in Sources */,
 				CE0E4CA32BD9796E00310E8D /* BuzzicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
