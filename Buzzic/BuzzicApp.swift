@@ -12,7 +12,7 @@ struct BuzzicApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-            StartPage()
+            
         }
     }
     

@@ -10,12 +10,15 @@
 		CE0E4CA32BD9796E00310E8D /* BuzzicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E4CA22BD9796E00310E8D /* BuzzicApp.swift */; };
 		CE0E4CA72BD9796F00310E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0E4CA62BD9796F00310E8D /* Assets.xcassets */; };
 		CE0E4CAA2BD9796F00310E8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0E4CA92BD9796F00310E8D /* Preview Assets.xcassets */; };
-		CE0E4CB12BD97E6300310E8D /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E4CB02BD97E6300310E8D /* StartPage.swift */; };
+		CE0E4CB12BD97E6300310E8D /* DiscoverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E4CB02BD97E6300310E8D /* DiscoverPage.swift */; };
 		CE2E814E2BDACBD4006E36E1 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E814D2BDACBD4006E36E1 /* Buttons.swift */; };
 		CE2E81502BDAE47A006E36E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E814F2BDAE47A006E36E1 /* ContentView.swift */; };
 		CE2E81522BDAE579006E36E1 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E81512BDAE579006E36E1 /* SearchPage.swift */; };
 		CE2E81542BDAE65F006E36E1 /* ComunityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E81532BDAE65F006E36E1 /* ComunityPage.swift */; };
 		CE2E81562BDAE66D006E36E1 /* LibraryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E81552BDAE66D006E36E1 /* LibraryPage.swift */; };
+		CE8D59402BE01E6E002CE700 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D593F2BE01E6E002CE700 /* CustomTabBar.swift */; };
+		CE8D59432BE03717002CE700 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D59422BE03717002CE700 /* CustomSearchBar.swift */; };
+		CE8D59452BE03E45002CE700 /* PlayerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D59442BE03E45002CE700 /* PlayerPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +26,15 @@
 		CE0E4CA22BD9796E00310E8D /* BuzzicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzicApp.swift; sourceTree = "<group>"; };
 		CE0E4CA62BD9796F00310E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0E4CA92BD9796F00310E8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CE0E4CB02BD97E6300310E8D /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		CE0E4CB02BD97E6300310E8D /* DiscoverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverPage.swift; sourceTree = "<group>"; };
 		CE2E814D2BDACBD4006E36E1 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		CE2E814F2BDAE47A006E36E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE2E81512BDAE579006E36E1 /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
 		CE2E81532BDAE65F006E36E1 /* ComunityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComunityPage.swift; sourceTree = "<group>"; };
 		CE2E81552BDAE66D006E36E1 /* LibraryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPage.swift; sourceTree = "<group>"; };
+		CE8D593F2BE01E6E002CE700 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		CE8D59422BE03717002CE700 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		CE8D59442BE03E45002CE700 /* PlayerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		CE0E4CA12BD9796E00310E8D /* Buzzic */ = {
 			isa = PBXGroup;
 			children = (
+				CE8D59412BE036AA002CE700 /* New Group */,
 				CE2E814F2BDAE47A006E36E1 /* ContentView.swift */,
 				CE0E4CD52BD996C500310E8D /* Views */,
 				CE0E4CD22BD995AB00310E8D /* TabBar */,
@@ -83,6 +90,7 @@
 		CE0E4CD22BD995AB00310E8D /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				CE8D593F2BE01E6E002CE700 /* CustomTabBar.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -90,12 +98,21 @@
 		CE0E4CD52BD996C500310E8D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE0E4CB02BD97E6300310E8D /* StartPage.swift */,
+				CE0E4CB02BD97E6300310E8D /* DiscoverPage.swift */,
 				CE2E81512BDAE579006E36E1 /* SearchPage.swift */,
 				CE2E81532BDAE65F006E36E1 /* ComunityPage.swift */,
 				CE2E81552BDAE66D006E36E1 /* LibraryPage.swift */,
+				CE8D59442BE03E45002CE700 /* PlayerPage.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CE8D59412BE036AA002CE700 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D59422BE03717002CE700 /* CustomSearchBar.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,8 +187,11 @@
 			files = (
 				CE2E81542BDAE65F006E36E1 /* ComunityPage.swift in Sources */,
 				CE2E814E2BDACBD4006E36E1 /* Buttons.swift in Sources */,
-				CE0E4CB12BD97E6300310E8D /* StartPage.swift in Sources */,
+				CE0E4CB12BD97E6300310E8D /* DiscoverPage.swift in Sources */,
+				CE8D59452BE03E45002CE700 /* PlayerPage.swift in Sources */,
 				CE2E81502BDAE47A006E36E1 /* ContentView.swift in Sources */,
+				CE8D59402BE01E6E002CE700 /* CustomTabBar.swift in Sources */,
+				CE8D59432BE03717002CE700 /* CustomSearchBar.swift in Sources */,
 				CE0E4CA32BD9796E00310E8D /* BuzzicApp.swift in Sources */,
 				CE2E81562BDAE66D006E36E1 /* LibraryPage.swift in Sources */,
 				CE2E81522BDAE579006E36E1 /* SearchPage.swift in Sources */,
